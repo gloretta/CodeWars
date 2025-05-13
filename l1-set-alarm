@@ -1,0 +1,1 @@
+def set_alarm(employed, vacation): return False if employed == True and vacation == True else employed
