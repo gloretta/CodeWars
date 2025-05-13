@@ -1,0 +1,4 @@
+def dna_to_rna(dna):
+    dna.find("T")
+    rna = dna.replace("T","U")
+    return rna
