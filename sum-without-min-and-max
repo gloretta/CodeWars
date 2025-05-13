@@ -1,0 +1,7 @@
+def sum_array(arr):   # define function
+    if (arr):         # if arr == True
+        arr.sort()    # sort from smallest to greatest
+        new_arr = arr[1:-1] # remove the first and last items
+        return sum(new_arr) # return the sum of the array without the min and mac values
+    else:
+        return 0      # if the array is None, empty etc...
