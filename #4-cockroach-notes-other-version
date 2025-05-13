@@ -1,0 +1,2 @@
+def cockroach_speed(s):
+    return s // 0.036   #two slashes means that that number rounded down
