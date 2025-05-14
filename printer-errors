@@ -1,0 +1,7 @@
+def printer_error(s):
+    mistakes = 0
+    alphabet = ["a","b","c","d","e","f","g","h","i","j","k","l","m"]
+    for x in s:
+        if x not in alphabet:
+            mistakes += 1
+    return f"{mistakes}/{len(s)}"
