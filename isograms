@@ -1,0 +1,3 @@
+def is_isogram(strings): 
+    return True if len(strings.lower()) == len(set(strings.lower())) else False
+    
