@@ -1,0 +1,12 @@
+def get_count(sentence):
+    vowels = ["a","o","e","i","u"]
+    num = 0
+    if len(sentence) > 0:
+        for i in range(len(sentence)):
+            if sentence[i] in vowels:
+                num += 1
+    elif sentence == "" or sentence == None:
+        num = 0
+    else:
+        num = 0
+    return num
