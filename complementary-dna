@@ -1,0 +1,12 @@
+def DNA_strand(dna):
+    d = ""
+    for i in dna:
+        if i == "A":
+            d += "T"
+        elif i == "T":
+            d += "A"
+        elif i == "C":
+            d += "G"
+        else:
+            d += "C"
+    return d
