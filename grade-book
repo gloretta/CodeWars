@@ -1,0 +1,13 @@
+def get_grade(s1, s2, s3):
+    grades = [s1, s2, s3]
+    av = sum(grades)/len(grades)
+    if av >= 90 and av <= 100:
+        return "A"
+    elif av >= 80 and av < 90:
+        return "B"
+    elif av >= 70 and av < 80:
+        return "C"
+    elif av >= 60 and av < 70:
+        return "D"
+    else:
+        return "F"
