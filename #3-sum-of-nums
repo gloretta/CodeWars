@@ -1,0 +1,4 @@
+def get_sum(a,b):
+    nums = [a,b]
+    return sum(nums)
+#7kyu
