@@ -1,0 +1,8 @@
+def disemvowel(string_):
+    stri = list(string_)
+    vowels = "aoeiuAOEIU"
+    stringy = []
+    for i in stri:
+        if i not in vowels:
+            stringy.append(i)
+    return "".join(stringy)
