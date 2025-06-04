@@ -1,0 +1,4 @@
+- In a class, you can attach a local variable to "self" to use that variable in other functions.
+- A class is usually made up of blocks of code, or functions, and there are no random variables floating around. 
+- Global and most important variable are created at the top of a code.
+- Modules and classes are usually imported at the start of the code.
